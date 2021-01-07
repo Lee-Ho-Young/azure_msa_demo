@@ -26,5 +26,8 @@ Cloud base MSA환경구성
 ***
 
 
-##Simple Spring Boot 프로젝트 생성
+## Simple Spring Boot 프로젝트 생성
 [참고 : https://spring.io/quickstart]
+
+1) https://start.spring.io/ 접속
+   * 아래와 같이 설정 후 GENERATE 클릭
