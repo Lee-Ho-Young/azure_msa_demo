@@ -58,10 +58,16 @@ Cloud base MSA환경구성
 
 
 ### 1-4. demoA프로젝트 실행 및 확인
+   * cmd 창으로 프로젝트 디렉토리로 이동
+   * 명령어 실행
+   
+   	mvnw spring-boot:run
+	
+   * 웹을 통해 프로그램 확인 :
+   ![Alt text](capture/springBootStarterCmd.png "Optional title")   
+   ![Alt text](capture/springBootStarterBrower.png "Optional title")
 
 
-
-
-
+## 2) MariaDB와 연동하는 Simple Spring Boot 프로젝트 생성
 
 
