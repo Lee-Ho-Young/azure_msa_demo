@@ -8,6 +8,15 @@ Cloud base MSA환경구성
 ***
 
 ***
+**<활용기술>**
+   - Spring Boot
+   - Docker
+   - Kubernetis
+   - Azure - AKS [Azure Kubernetis Service]
+   - Azure - MariaDB [PaaS]
+***
+
+***
 **<목차>**
 1) Simple Spring Boot 프로젝트 생성
 2) MariaDB와 연동하는 Simple Spring Boot 프로젝트 생성
@@ -17,17 +26,15 @@ Cloud base MSA환경구성
 ***
 
 ***
-**<활용기술>**
-   - Spring Boot
-   - Docker
-   - Kubernetis
-   - Azure - AKS [Azure Kubernetis Service]
-   - Azure - MariaDB [PaaS]
-***
-
-
-## Simple Spring Boot 프로젝트 생성
+## 1) Simple Spring Boot 프로젝트 생성
 [참고 : https://spring.io/quickstart]
 
 1) https://start.spring.io/ 접속
    * 아래와 같이 설정 후 GENERATE 클릭
+
+
+
+
+
+
+
