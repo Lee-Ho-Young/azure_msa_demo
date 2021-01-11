@@ -34,6 +34,29 @@ Cloud base MSA환경구성
 
 ### 1-3. demoA프로젝트 샘플 소스코드 수정
 
+	package com.example.demo;
+	
+	import org.springframework.boot.SpringApplication;
+	import org.springframework.boot.autoconfigure.SpringBootApplication;
+	import org.springframework.web.bind.annotation.GetMapping;
+	import org.springframework.web.bind.annotation.RequestParam;
+	import org.springframework.web.bind.annotation.RestController;
+	
+	@SpringBootApplication
+	@RestController
+	public class DemoApplication {
+		
+		public static void main(String[] args) {
+			SpringApplication.run(DemoApplication.class, args);
+		}
+		
+		@GetMapping("/hello")
+			public String hello(@RequestParam(value = "name", defaultValue = "World") String name) {
+			return String.format("Hello %s!", name);
+		}
+	}
+
+
 ### 1-4. demoA프로젝트 실행 및 확인
 
 
