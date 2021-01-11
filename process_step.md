@@ -64,7 +64,8 @@ Cloud base MSA환경구성
    	mvnw spring-boot:run
 	
    * 웹을 통해 프로그램 확인 :
-   ![Alt text](capture/springBootStarterCmd.png "Optional title")   
+   ![Alt text](capture/springBootStarterCmd.png "Optional title")    
+   
    ![Alt text](capture/springBootStarterBrower.png "Optional title")
 
 
