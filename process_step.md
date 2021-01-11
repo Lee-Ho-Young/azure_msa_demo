@@ -71,4 +71,11 @@ Cloud base MSA환경구성
 
 ## 2) MariaDB와 연동하는 Simple Spring Boot 프로젝트 생성
 
+### 2-1. 로컬 Window - MariaDB 설치
+   * 아래와 같이 설정 후 GENERATE 클릭
 
+### 2-2. https://start.spring.io/ 접속
+   * 아래와 같이 설정 후 GENERATE 클릭
+   ![Alt text](capture/springBootStarter.png "Optional title")
+
+### 2-3. demoB 샘플소스 수정
