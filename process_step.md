@@ -84,11 +84,10 @@ Cloud base MSA환경구성
 
 
 https://spring.io/guides/gs/spring-boot-docker/
+mvnw package && java -jar target/demoA-0.0.1-SNAPSHOT.jar
+docker build -t demo:1.0 .
+docker run -p 8080:8080 demo:1.0
 
--- 윈도우 용 도커를 설치하고 도커 이미지를 만들고
-프로젝트 root 위치에서
-docker build -t 태그명 .
-[-t 태그명 [docker파일 경로]]
 
 -- 도커 이미지를 용하여 앱 실행
 -- Linux서버에서 도커 설치하고
