@@ -125,7 +125,7 @@ https://docs.docker.com/engine/install/centos/
 https://kubernetes.io/ko/docs/tutorials/stateless-application/guestbook/
 
 
-
+https://training.play-with-kubernetes.com/kubernetes-workshop/
 
 
 
