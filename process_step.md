@@ -88,6 +88,15 @@ mvnw package && java -jar target/demoA-0.0.1-SNAPSHOT.jar
 docker build -t demo:1.0 .
 docker run -p 8080:8080 demo:1.0
 
+도커 허브에 이미지를 올리고 싶으면, 이미지tag명을 아래의 형식으로 해야 한다.
+-- docker hub 계정명 : flghdud1234
+-- docker hub Repo명 :msa_test
+-- docker build -t flghdud1234/msa_test:demo .
+-- docker push flghdud1234/msa_test:demo
+$ docker tag first-image (Docker Hub 계정)/docker-repo:first-image
+$ docker push (Docker Hub 계정)/docker-repo:first-image
+
+
 
 -- 도커 이미지를 용하여 앱 실행
 -- Linux서버에서 도커 설치하고
