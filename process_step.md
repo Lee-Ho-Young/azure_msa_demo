@@ -97,7 +97,18 @@ $ docker tag first-image (Docker Hub 계정)/docker-repo:first-image
 $ docker push (Docker Hub 계정)/docker-repo:first-image
 
 
+https://www.44bits.io/ko/post/easy-deploy-with-docker
 
--- 도커 이미지를 용하여 앱 실행
--- Linux서버에서 도커 설치하고
--- Linux서버에서 도커이미지를 받아서 실행
+appadmin 임시!@#$1234
+[os진단은 이미지를 무엇을 선택하느냐에 따라 success/fail 갈림, rogue wave centos 7.5는 ok]
+centos 8.0 fail
+https://docs.docker.com/engine/install/centos/
+
+-- sudo yum install -y yum-utils
+-- sudo yum-config-manager \
+    --add-repo \
+    https://download.docker.com/linux/centos/docker-ce.repo
+   
+-- sudo yum install docker-ce docker-ce-cli containerd.io
+-- sudo systemctl start docker
+-- sudo docker run hello-world
