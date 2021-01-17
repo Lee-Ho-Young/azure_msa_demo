@@ -102,6 +102,7 @@ https://www.44bits.io/ko/post/easy-deploy-with-docker
 appadmin 임시!@#$1234
 [os진단은 이미지를 무엇을 선택하느냐에 따라 success/fail 갈림, rogue wave centos 7.5는 ok]
 centos 8.0 fail
+
 https://docs.docker.com/engine/install/centos/
 
 -- sudo yum install -y yum-utils
@@ -112,3 +113,7 @@ https://docs.docker.com/engine/install/centos/
 -- sudo yum install docker-ce docker-ce-cli containerd.io
 -- sudo systemctl start docker
 -- sudo docker run hello-world
+
+
+-- sudo docker pull flghdud1234/msa_test:demo
+-- sudo docker run flghdud1234/msa_test:demo
