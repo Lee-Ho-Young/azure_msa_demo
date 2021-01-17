@@ -116,4 +116,18 @@ https://docs.docker.com/engine/install/centos/
 
 
 -- sudo docker pull flghdud1234/msa_test:demo
--- sudo docker run flghdud1234/msa_test:demo
+-- sudo docker run -p 8080:8080 flghdud1234/msa_test:demo
+
+-- docker images [로컬에 받아진 images]
+-- docker ps [실행중인 container]
+
+
+https://kubernetes.io/ko/docs/tutorials/stateless-application/guestbook/
+
+
+
+
+
+
+
+
