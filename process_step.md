@@ -81,6 +81,13 @@ Cloud base MSA환경구성
 ### 2-3. demoB 샘플소스 수정
 
 
+## 3) Spring Boot App.을 Docker를 활용하여 이미지화
+
+### 3-1. Local환경에 Docker Desktop 설치
+
+### 3-2. Docker hub 계정 생성 및 Repo생성
+
+   ![Alt text](capture/dockerHub1.png "Optional title")
 
 
 https://spring.io/guides/gs/spring-boot-docker/
