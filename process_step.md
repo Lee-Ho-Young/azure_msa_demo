@@ -138,7 +138,31 @@ Cloud base MSA환경구성
 ### 4-2. AKS에 샘플 서비스 배포
 
    * AKS는 기본적으로 kubectl을 통해 제어가 되며, 아래의 방법으로 kubectl 환경으로 들어간다.
+       [AKS object 클릭 -> 연결 버튼 클릭 -> 표시되는 Guide에 맞춰 Azure Cloud Shell 입력]
+       [아래의 화면과 같이 kubectl 명령어를 활용할 수 있는 환경에 접속할 수 있다.]
+       [최초 세팅 이후부터는 Cloud Shell에 접속하자마자 kubectl 명령어를 사용할 수 있다.]
+     
+   ![Alt text](capture/AKS_usage1.png "Optional title")
+
+   * Shell환경에서 yaml파일을 작성하여 배포도 가능하지만, Azure Portal에서도 yaml파일을 추가할 수 있다.
+       [AKS object 클릭 -> +추가 버튼 클릭 -> Sample YAML파일 복사 -> 추가 버튼 클릭]
+       [YAML샘플 : https://docs.microsoft.com/ko-kr/azure/aks/kubernetes-walkthrough-portal?WT.mc_id=Portal-Microsoft_Azure_Marketplace]
    
+   ![Alt text](capture/AKS_usage2.png "Optional title")
+   
+   * Cloud Shell을 통해 서비스 확인
+       [azure-vote-front 서비스의 EXTERNAL-IP값이 정상적으로 출력되면 정상이지 않을까?]
+
+	kubectl get service azure-vote-front --watch
+	
+   * 배포한 서비스 확인
+
+   ![Alt text](capture/AKS_usage3.png "Optional title")
+
+
+
+
+
 
 
 https://www.44bits.io/ko/post/easy-deploy-with-docker
