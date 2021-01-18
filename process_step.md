@@ -86,7 +86,7 @@ Cloud base MSA환경구성
 ### 3-1. Local환경에 Docker Desktop 설치
 
 ### 3-2. Docker hub 계정 생성 및 Repo생성
-
+   * 아래의 경우 flghdud1234계정에 mas_test라는 Repository를 생성한 결과이다.
    ![Alt text](capture/dockerHub1.png "Optional title")
 
 
