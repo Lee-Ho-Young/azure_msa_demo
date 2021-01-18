@@ -116,7 +116,29 @@ Cloud base MSA환경구성
    ![Alt text](capture/dockerHub1.png "Optional title")	
 
 
+## 4) 2개의 Docker이미지를 Kubernetis환경에 배포
+[참고 : 시간 문제로 Azure에서 제공하는 예시 프로그램을 배포함]
 
+### 4-1. Azure Kubernetis Service Object 생성
+
+   * Azure Kubernetis 서비스를 생성한다. [PaaS]
+   
+   * 노드 크기의 Default값은 3이지만 1로 설정이 가능하다.
+   ![Alt text](capture/AKS_create1.PNG "Optional title")
+   
+   * 나머지 설정들은 모두 Default 설정값을 그대로 적용하였다.
+   ![Alt text](capture/AKS_create2.PNG "Optional title")	
+   ![Alt text](capture/AKS_create4.PNG "Optional title")	
+   ![Alt text](capture/AKS_create5.PNG "Optional title")	
+
+   * 생성이 완료되면 target ResourceGroup에 AKS1 Object 1개가 생성되지만, AKS1 Platform의 기반이 되는 자원들은 별도 ResouceGroup으로 생성된다.
+   ![Alt text](capture/AKS_create6.PNG "Optional title")
+   ![Alt text](capture/AKS_create7.PNG "Optional title")
+
+### 4-2. AKS에 샘플 서비스 배포
+
+   * AKS는 기본적으로 kubectl을 통해 제어가 되며, 아래의 방법으로 kubectl 환경으로 들어간다.
+   
 
 
 https://www.44bits.io/ko/post/easy-deploy-with-docker
@@ -150,6 +172,6 @@ https://kubernetes.io/ko/docs/tutorials/stateless-application/guestbook/
 https://training.play-with-kubernetes.com/kubernetes-workshop/
 
 
-
+https://docs.microsoft.com/ko-kr/azure/aks/kubernetes-walkthrough-portal?WT.mc_id=Portal-Microsoft_Azure_Marketplace
 
 
